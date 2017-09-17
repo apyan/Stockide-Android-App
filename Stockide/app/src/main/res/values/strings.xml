@@ -1,0 +1,92 @@
+<resources>
+
+    <string name="app_name">Stockide</string>
+    <string name="app_name_000">stockide</string>
+
+    <string name="app_status">Version: Alpha (0.0.0)</string>
+
+    <!-- Player File Name -->
+    <string name="user_data_file">option-user.sk</string>
+
+    <string name="splash_proceed">Press to Proceed</string>
+
+    <!-- Fragment Labels -->
+    <string name="fragment_000">Stock Viewing</string>
+    <string name="fragment_001">Currency Converter</string>
+    <string name="fragment_002">Options</string>
+
+    <!-- Month Name Arrays -->
+    <string-array name="month_tokens">
+        <item> </item>
+        <item>Jan.</item>
+        <item>Feb.</item>
+        <item>Mar.</item>
+        <item>Apr.</item>
+        <item>May</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Aug.</item>
+        <item>Sept.</item>
+        <item>Oct.</item>
+        <item>Nov.</item>
+        <item>Dec.</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Stock Viewing Strings -->
+    <string name="quote_000">Enter stock symbol:</string>
+    <string name="quote_001">Search Quote</string>
+    <string name="quote_002">Press a quote for details.</string>
+    <string name="quote_003">No quote found, try again.</string>
+    <string name="quote_004">Connection not found.\nPlease try again.</string>
+    <string name="quote_005">Invalid entry, try again.</string>
+
+    <string name="test_000">Test</string>
+    <string name="test_001">[ Name not found. ]</string>
+    <string name="test_002"> </string>
+    <string name="test_003">As of</string>
+
+    <!-- Currency -->
+    <string name="curr_000">USD</string>
+
+    <string name="dialog_000">Seeking Quotes</string>
+    <string name="dialog_001">Searching for stock quotes.\nPlease wait.</string>
+    <string name="dialog_002">Seeking Stock Info</string>
+    <string name="dialog_003">Retrieving stock information.\nPlease wait.</string>
+
+    <!-- Popup Comments -->
+    <string name="popup_button">Close Stock</string>
+    <string name="popup_000">Year-to-Date (YTD) Change</string>
+    <string name="popup_001">Market Cap</string>
+    <string name="popup_002">As of</string>
+    <string name="popup_003">Seeking Quotes</string>
+    <string name="popup_004">Seeking Quotes</string>
+
+    <!-- Lookup XML Elements -->
+    <string name="lookup_000">LookupResultList</string>
+    <string name="lookup_001">LookupResult</string>
+    <string name="lookup_002">Symbol</string>
+    <string name="lookup_003">Name</string>
+    <string name="lookup_004">Exchange</string>
+
+    <!-- Quote XML Elements -->
+    <string name="seek_000">StockQuote</string>
+    <string name="seek_001">Status</string>
+    <string name="seek_002">Name</string>
+    <string name="seek_003">Symbol</string>
+    <string name="seek_004">LastPrice</string>
+    <string name="seek_005">Change</string>
+    <string name="seek_006">ChangePercent</string>
+    <string name="seek_007">Timestamp</string>
+    <string name="seek_008">MSDate</string>
+    <string name="seek_009">MarketCap</string>
+    <string name="seek_010">Volume</string>
+    <string name="seek_011">ChangeYTD</string>
+    <string name="seek_012">ChangePercentYTD</string>
+    <string name="seek_013">High</string>
+    <string name="seek_014">Low</string>
+    <string name="seek_015">Open</string>
+
+</resources>

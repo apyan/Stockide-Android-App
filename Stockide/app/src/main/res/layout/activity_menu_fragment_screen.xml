@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:id="@+id/menu_fragment_screen">
+
+    <!-- Fragment Activity -->
+    <FrameLayout
+        android:id="@+id/fragment_place"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!-- Fragment Activity -->
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:fadeScrollbars="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="92dp"
+                tools:ignore="RtlHardcoded,UselessParent">
+
+                <Button
+                    android:id="@+id/button_00"
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="15dp"
+                    android:onClick="onStockViewing"
+                    android:textSize="18sp"
+                    android:text="@string/fragment_000"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_01"
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="15dp"
+                    android:onClick="onCurrencyConverter"
+                    android:textSize="18sp"
+                    android:text="@string/fragment_001"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_02"
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="15dp"
+                    android:onClick="onOptions"
+                    android:textSize="18sp"
+                    android:text="@string/fragment_002"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:id="@+id/fragment_stock_view">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="210dp"
+        android:layout_weight="1"
+        android:background="#070707">
+
+        <TextView
+            android:id="@+id/text_00"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/quote_000"
+            tools:ignore="RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/edit_00"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            tools:ignore="LabelFor">
+            <!-- <requestFocus /> -->
+        </EditText>
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quote_001" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_000"
+        android:layout_weight="2"
+        android:fadeScrollbars="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

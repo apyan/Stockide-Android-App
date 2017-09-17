@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="top|left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adapter_stock_000"
+    tools:ignore="RtlHardcoded">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/text_000"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lookup_002"/>
+
+        <TextView
+            android:id="@+id/text_001"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/lookup_003"/>
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/text_002"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/lookup_004"
+        tools:ignore="RtlHardcoded" />
+
+</LinearLayout>
